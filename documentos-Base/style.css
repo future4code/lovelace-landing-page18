@@ -1,0 +1,46 @@
+#primeiro-footer{
+background-color:#987e70;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content:space-around ;
+align-items: center;
+text-align: center;
+
+}
+
+
+
+#imagem-footer{
+    height: 17vh;
+    width: 17vh;
+    border-radius: 20%;
+    
+    
+}
+
+#imagem-whats{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 20%;
+   
+}
+img:hover{
+
+    height: 40px;
+    width: 40px;
+}
+
+
+#segundo-footer{
+    background-color:#66402b;
+    height: 50px;
+
+}
