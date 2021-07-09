@@ -1,0 +1,58 @@
+*{
+   
+    font-family:'Times New Roman', Times, serif;
+}
+
+.tela-quem-somos{
+    width:100%;
+    height:100vh;
+     display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+    display:flex;
+    align-items:center;
+    font-size:1.75em
+  
+    
+} 
+
+.tela-produtos-e-servicos{
+    width:100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1vw;
+    background-image: url("comprando.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh ;
+    
+}
+
+.estilizacao-p-dentro-carrinho{  
+  
+    display:flex;
+    align-items: center;
+}
+  
+
+
+.tela-trabalhe-conosco{
+ width:100%;
+ height: auto;
+}
+
+.final-do-main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+ .border-do-trabalhe-conosco{
+     border: solid 5px #66402b;
+
+   }
+#tamanho-da-imagem{
+    width: 30vw;
+    height: 90vh;
+
+
+}
