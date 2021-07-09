@@ -1,3 +1,4 @@
+
 #primeiro-footer{
 background-color:#987e70;
 height: 100%;
@@ -44,3 +45,29 @@ img:hover{
     height: 50px;
 
 }
+=======
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #66402b;
+}
+.logo-header{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #412416;
+    border-radius: 7px;
+
+}
+
