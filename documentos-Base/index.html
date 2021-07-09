@@ -12,31 +12,31 @@
 <body>
 
    
-    <footer id="primeiro-footer">
-
+    
+   <!--  /* Aqui começa o header */ -->
         <header>
             <img src="img/4food.png" alt="Logo do 4Food" class="logo-header">
-            <h3><a href="#quem-somos">Quem somos</a></h3>
-            <h3><a href="#nosso-produtos">Nosso produtos/ serviços</a></h3>
-            <h3><a href="#trabalhe-conosco">Trabalhe conosco</a></h3>
+            <h3><a class="header" href="#quem-somos">Quem somos</a></h3>
+            <h3><a class="header" href="#nosso-produto">Nosso produtos/ serviços</a></h3>
+            <h3><a class="header" href="#trabalhe-conosco">Trabalhe conosco</a></h3>
         </header>
 
     <main>
          
-        <h1> Quem somos </h1>
+        <h1 id="quem-somos"> Quem somos </h1>
 
 
         <div class="tela-quem-somos">
           
 
-            <img src="4food.png" alt="Logo da empresa">            
+            <img id="logo-main" src="./img/4food1.png" alt="Logo da empresa">            
             <p> 4FOOD, o supermercado que está sempre perto de você, agora mais perto do que nunca. Presente na internet, dando mais aoutonomia e praticidade para você cliente realizar suas compras no conforto da sua residência e com a qualidade que só a 4FOOD tem.</p>
 
             
-
+           <!--  /* Aqui começa o main */ -->
            
         </div>
-        <h1>Produtos e Serviços  </h1>
+        <h1 id="nosso-produto">Produtos e Serviços  </h1>
         <div>
         <div class="tela-produtos-e-servicos">
         
@@ -74,15 +74,17 @@
         
              </div>
         </div>
-     
+
      
          <div>
-             <h1 >Trabalhe Conosco</h1>
+                
                 <div class="border-do-trabalhe-conosco">
                 <div class="final-do-main">
                 <form class="tela-trabalhe-conosco"  action="#" >
                    
-                  <div> <label for = "seu-Nome">Seu Nome</label><br>
+                  <div>
+                    <h1 id="trabalhe-conosco">Trabalhe Conosco</h1>
+                     <label for = "seu-Nome">Seu Nome</label><br>
                     
                     <input type= "text" id ="seu-Nome"  name = "seu-nome"><br></div>
 
@@ -101,22 +103,21 @@
                     <div><button type="submit">Enviar Dados</button></div>
                 </form>
 
-                <img id="tamanho-da-imagem"src="procurar-emprego1.jpg" alt="imagem-de-pessoa-procurando-funcionario">
+                <img id="tamanho-da-imagem" src="./img/procurar-emprego1.jpg" alt="">
                 </div>
                 </div>
         </div>
     </main>
 
-     <img id="imagem-footer" src="./img/4food.png" alt="Logo 4food">
+
+    <!-- /* Aqui o Fotter */ -->
+
+
+    <footer id="primeiro-footer">
+
+        <img id="imagem-footer" src="./img/4food.png" alt="Logo 4food">
      
-     <h4 id="mercado">Super Mercado 4Food pensado para você ♥
-   
-     
-
-    </h4>
-
-
-
+     <h4 id="mercado">Super Mercado 4Food pensado para você ♥</h4>
      <h4>
         Contatos:
             <br>
@@ -124,29 +125,23 @@
             <br>
             <img id="imagem-whats" src="./img/email5.png" alt="logo email"><br>Emai-l: atendimento@4food.com
     </h4>
-    </il> 
-
-    <il>
+    
+        
         <h4>
         Fique por dentro das nossas redes sociais:
         <br>
-        <a class="logo-social"target="_blank"href="http://www.twitter.com"><img src="./img/twitter2.png" alt="icone twitter"></a>
-        <a class="logo-social"target="_blank"href="http://www.facebook.com"><img src="./img/facebook2.png" alt="icone facebook"></a>
-        <a class="logo-social"target="_blank"href="http://www.instagram.com"><img src="./img/instagram2.png" alt="icone instagram"></a>
-        <a class="logo-social"target="_blank"href="http://www.linkedin.com/"><img src="./img/linkdin2.png" alt="icone linkdin"></a>
-        <a class="logo-social"target="_blank"href="http://www.youtube.com"><img src="./img/youtube2.png" alt="icone youtube"></a>
+        <a target="_blank"href="http://www.twitter.com"><img class="logo-social" src="./img/twitter2.png" alt="icone twitter"></a>
+        <a target="_blank"href="http://www.facebook.com"><img class="logo-social" src="./img/facebook2.png" alt="icone facebook"></a>
+        <a target="_blank"href="http://www.instagram.com"><img class="logo-social" src="./img/instagram2.png" alt="icone instagram"></a>
+        <a target="_blank"href="http://www.linkedin.com/"><img class="logo-social" src="./img/linkdin2.png" alt="icone linkdin"></a>
+        <a target="_blank"href="http://www.youtube.com"><img class="logo-social" src="./img/youtube2.png" alt="icone youtube"></a>
         </h4>
-    </il>
+        
     </footer>
         
-    <footer id="segundo-footer">
-        
-
-
- 
-
-    <footer>
+    <footer id="segundo-footer">    
     </footer>
+    
 </body>
 
 </html>

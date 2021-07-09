@@ -1,8 +1,39 @@
 
+/* Aqui começa o header */
+html {
+    scroll-behavior: smooth;
+  }
+
 *{
-   
     font-family:'Times New Roman', Times, serif;
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #66402b;
+}
+.logo-header{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 20%;
+}
+
+.header {
+    text-decoration: none;
+    color: black;
+}
+.header:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #412416;
+    border-radius: 7px;
+
+}
+
+/* Aqui começa o main */
 
 .tela-quem-somos{
     width:100%;
@@ -40,17 +71,18 @@
 .tela-trabalhe-conosco{
  width:100%;
  height: auto;
+ margin: 10vh
 }
+
+
+
 
 .final-do-main{
     display:grid;
     grid-template-columns: 1fr 1fr;
    }
 
- .border-do-trabalhe-conosco{
-     border: solid 5px #66402b;
-
-   }
+ 
 #tamanho-da-imagem{
     width: 30vw;
     height: 90vh;
@@ -59,76 +91,51 @@
 }
 
 
+/* Aqui o Fotter */
+
 #primeiro-footer{
 background-color:#987e70;
 height: 100%;
 width: 100%;
 display: flex;
-justify-content:space-around ;
+justify-content: space-around;
 align-items: center;
-text-align: center;
-
 }
-
-
 
 #imagem-footer{
     height: 17vh;
     width: 17vh;
     border-radius: 20%;
-    
-    
 }
 
 #imagem-whats{
-    height: 20px;
-    width: 20px;
-    margin-top: 5px;
+    height: 3vh;
+    width: 3vh;
+    margin-top: 1vh;
 }
 
-img{
-    height: 30px;
-    width: 30px;
-    margin: 5px;
-    border-radius: 20%;
-   
-}
-img:hover{
-
-    height: 40px;
-    width: 40px;
+#logo-main{
+    height: 30vh;
+    width: 30vh;
 }
 
+.logo-social{
+    height: 5vh;
+    width: 5vh;
+    margin: 1vh;
+    border-radius: 20%;  
+}
+
+.logo-social:hover{
+
+    height: 7vh;
+    width: 7vh;
+}
 
 #segundo-footer{
     background-color:#66402b;
-    height: 50px;
-
+    height: 10vh;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #66402b;
-}
-.logo-header{
-    height: 15vh;
-    width: 15vh;
-    border-radius: 20%;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    text-decoration: none;
-    color: white;
-    background-color: #412416;
-    border-radius: 7px;
-
-}
 
 
