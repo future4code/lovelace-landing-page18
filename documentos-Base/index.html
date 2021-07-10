@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>4food</title>
 </head>
 
 <body>
@@ -14,36 +14,47 @@
    
     
    <!--  /* Aqui começa o header */ -->
-        <header>
-            <img src="img/4food.png" alt="Logo do 4Food" class="logo-header">
-            <h3><a class="header" href="#quem-somos">Quem somos</a></h3>
-            <h3><a class="header" href="#nosso-produto">Nosso produtos/ serviços</a></h3>
-            <h3><a class="header" href="#trabalhe-conosco">Trabalhe conosco</a></h3>
-        </header>
+     
+   <header>
+    <div class="div-da-header" > 
+           <div> <img src="img/4food.png" alt="Logo do 4Food" class="logo-header"> </div>
+            <div> <h3><a class="header" href="#quem-somos">Quem somos</a></h3> </div>
+           <div> <h3><a class="header" href="#nosso-produto">Nosso produtos/ serviços</a></h3></div>
+            <div> <h3><a class="header" href="#trabalhe-conosco">Trabalhe conosco</a></h3></div>
+        </div>
+     </header>
+      
+  <!--  /* Aqui começa o main */ -->
+
 
     <main>
-         
-        <h1 id="quem-somos"> Quem somos </h1>
+        
 
+        <div class="tela-apresentacao">            
+            <p >4FOOD, o supermercado que está sempre perto de você, agora mais perto do que nunca. Presente na internet, dando mais aoutonomia e praticidade para você cliente realizar suas compras no conforto da sua residência e com a qualidade que só a 4FOOD tem.</p>     
+        </div>
+
+        <div class="titulos">
+            <h1 id="quem-somos"> Quem somos </h1>
+             </div>
 
         <div class="tela-quem-somos">
-          
-
             <img id="logo-main" src="./img/4food1.png" alt="Logo da empresa">            
-            <p> 4FOOD, o supermercado que está sempre perto de você, agora mais perto do que nunca. Presente na internet, dando mais aoutonomia e praticidade para você cliente realizar suas compras no conforto da sua residência e com a qualidade que só a 4FOOD tem.</p>
+             <div> <p class="paragrafo-quem-somos"> O 4FOOD que é conhecido pela sua qualidade, faz parte de uma rede de supermercados, que busca se modernizar cada vez mais, tendo como objetivo entregar a melhor experiência possível para seus clientes. Agora presente fisicamente e digitalmente. 
+                <h5> Super Mercado 4Food pensado para você ♥</h5> </p> 
+           </div>
+          </div>
 
-            
-           <!--  /* Aqui começa o main */ -->
-           
-        </div>
-        <h1 id="nosso-produto">Produtos e Serviços  </h1>
-        <div>
+       <div> <h1 class="titulos" id="nosso-produto">Produtos e Serviços  </h1></div>
+    
         <div class="tela-produtos-e-servicos">
         
             <div class="bordas-p-carrinho-e-ps">
          <h4>Escolha a seção do seu produto</h4>  
                 <select>
-                    <a href="#topo-buscar"><option value="frios"> frios</option></a>
+                    <a href="#topo-buscar"></a>
+                    <option value="escolha">Escolha a seção</option>    
+                    <option value="frios"> frios</option>
                     <option value="graos">grãos</option>
                     <option value="hortifruti">Hortifruti</option>
                     <option value="Limpeza">Limpeza</option>
@@ -60,30 +71,33 @@
                     <h4>Digite aqui o seu produto </h4>
                     <form action="#traga-item" method="POST">
                   <input type="search" name="buscar" id="topo-buscar" />
-                  <button
-                  type="submit">Adcionar ao carrinho </button></form>
+                  <button id="botao-adcionar-ao-carrinho">Adcionar ao carrinho </button></form>
+                  <img class="imagem1-de-produtos-e-servicos" src="/img/comprando.jpg" alt="imagem de mulher fazendo compras">
              </div>
     
             
-                <div class="bordas-p-carrinho-e-ps">
-                  <h2>Carrinho</h2>
-                 <article class="estilizacao-p-dentro-carrinho">
-
-                 </article>
-                 <button>Comprar</button>
-        
+                <div class="div-do-carrinho">
+                  <h2>Carrinho <img id="imagem-do-carrinho" src="img/carrinho.png" alt="símbolo-do-carrinho">
+                  </h2>
+                 <button id="estilizacao-do-botao-comprar">Comprar</button>
+                 <img id= "imagem-das-formas-de-pgmt" src="/img/pagamento.jpg" alt="imagem de formas de pagamento">
+                 <img class= "imagem2-de-produtos-e-servicos"src="img/pratoDeComida.jpg" alt="imagem de prato de comida">
              </div>
+             
+             
+            
+            
         </div>
 
      
          <div>
                 
-                <div class="border-do-trabalhe-conosco">
-                <div class="final-do-main">
-                <form class="tela-trabalhe-conosco"  action="#" >
+            <h1 class="titulos" id="trabalhe-conosco">Trabalhe Conosco</h1>
+                <div  id="fundo-de-imagem" class="final-do-main">
+                <form  class="tela-trabalhe-conosco"  action="#" >
                    
-                  <div>
-                    <h1 id="trabalhe-conosco">Trabalhe Conosco</h1>
+                  <div >
+                   
                      <label for = "seu-Nome">Seu Nome</label><br>
                     
                     <input type= "text" id ="seu-Nome"  name = "seu-nome"><br></div>
@@ -100,13 +114,13 @@
                     
                     <textarea id="msg"></textarea></div>
 
-                    <div><button type="submit">Enviar Dados</button></div>
+                    <div><button id="botao-enviar-dados" type="submit">Enviar Dados</button></div>
                 </form>
 
-                <img id="tamanho-da-imagem" src="./img/procurar-emprego1.jpg" alt="">
+              
                 </div>
                 </div>
-        </div>
+        
     </main>
 
 
