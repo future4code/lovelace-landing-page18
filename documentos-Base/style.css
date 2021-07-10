@@ -69,14 +69,6 @@ main{
     margin-top: 5vh;
 }
 
-.imagem1-de-produtos-e-servicos{
-  width:40vw;
-  margin-top: 20vh;
-}
-.imagem2-de-produtos-e-servicos{
-    width:40vw;
-    margin-top: 10vh;
-}
 
 
 
@@ -93,6 +85,7 @@ main{
     grid-template-columns: 1fr 1fr;
     column-gap: 1vw;
     justify-items: center;
+    align-content: center;
    
    
     
@@ -125,7 +118,7 @@ width:20vw;
 }
 
 #imagem-do-carrinho{
-    width:3v;
+    width:3vw;
     height:4vh;
 
 }
@@ -137,6 +130,16 @@ width:20vw;
     cursor:pointer;
     background-color: #987e70;
 }
+
+.imagem1-de-produtos-e-servicos{
+    width:3vw;
+    height:4vh;
+  }
+  .imagem2-de-produtos-e-servicos{
+
+  width:3vw;
+  height:4vh;
+  }
 
 .tela-trabalhe-conosco{
  width:100%;
@@ -254,7 +257,35 @@ header para celular */
     width: 45vw;
 }
 
- 
+
+
+.tela-produtos-e-servicos{
+   
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   align-items: stretch;
+   justify-content: space-evenly;
+  
+      
+}
+
+#imagem-do-carrinho{
+    width:2em;
+    height:2em;
+}
+
+#estilizacao-do-botao-comprar{
+    background-color: #66402b ;
+    font-size: 1em;
+    width:5em
+ }
+ #estilizacao-do-botao-comprar:hover{
+    font-size:1em ;
+    width:5em;
+ }
+
+/*  
 .imagem2-de-produtos-e-servicos{
     margin-top: 29vh;
 }
@@ -263,7 +294,7 @@ header para celular */
 #estilizacao-do-botao-comprar{
     font-size: 1em;
     width:10em;
-}
+} */
 #imagem-das-formas-de-pgmt{
     width:12.73em;
     height:2.75em;
