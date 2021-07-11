@@ -14,6 +14,6 @@ link do surge - rude-camp.surge.sh
 ![Captura de Tela (228)](https://user-images.githubusercontent.com/77033019/125196562-c5d04380-e230-11eb-94e0-4fcd99359530.png)
 
 Integrantes:
-Erlan Gleidson Barbosa Carvalho
-Maisa Barbosa Faustino
+Erlan Gleidson Barbosa Carvalho,
+Maisa Barbosa Faustino,
 Glayton Verissimo 
