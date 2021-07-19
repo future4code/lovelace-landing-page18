@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>4food</title>
+</head>
+
+<body>
+
+   
+    
+   <!--  /* Aqui começa o header */ -->
+     
+   <header>
+    <div class="div-da-header" > 
+           <div> <img src="img/4food.png" alt="Logo do 4Food" class="logo-header"> </div>
+            <div> <h3><a class="header" href="#quem-somos">Quem somos</a></h3> </div>
+           <div> <h3><a class="header" href="#nosso-produto">Nosso produtos/ serviços</a></h3></div>
+            <div> <h3><a class="header" href="#trabalhe-conosco">Trabalhe conosco</a></h3></div>
+        </div>
+     </header>
+      
+  <!--  /* Aqui começa o main */ -->
+
+
+    <main>
+        
+
+        <div class="tela-apresentacao">            
+            <p >4FOOD, o supermercado que está sempre perto de você, agora mais perto do que nunca. Presente na internet, dando mais autonomia e praticidade para você cliente realizar suas compras no conforto da sua residência e com a qualidade que só a 4FOOD tem.</p>     
+        </div>
+
+        <div class="titulos">
+            <h1 id="quem-somos"> Quem somos </h1>
+             </div>
+
+        <div class="tela-quem-somos">
+            <img id="logo-main" src="./img/4food1.png" alt="Logo da empresa">            
+             <div> <p class="paragrafo-quem-somos"> O 4FOOD que é conhecido pela sua qualidade, faz parte de uma rede de supermercados, que busca se modernizar cada vez mais, tendo como objetivo entregar a melhor experiência possível para seus clientes. Agora presente fisicamente e digitalmente. 
+                <h5> Super Mercado 4Food pensado para você ♥</h5> </p> 
+           </div>
+          </div>
+
+       <div> <h1 class="titulos" id="nosso-produto">Produtos e Serviços  </h1></div>
+    
+        <div class="tela-produtos-e-servicos">
+        
+            <div class="bordas-p-carrinho-e-ps">
+         <h4>Escolha a seção do seu produto</h4>  
+                <select>
+                    <a href="#topo-buscar"></a>
+                    <option value="escolha">Escolha a seção</option>    
+                    <option value="frios"> frios</option>
+                    <option value="graos">grãos</option>
+                    <option value="hortifruti">Hortifruti</option>
+                    <option value="Limpeza">Limpeza</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="carnes">Carnes</option>
+                    <option value="congelados">     Congelados</option>
+                    <option value="Padaria">Padaraia </option>
+                    <option value="utensilios-domesticso">Utensílios domésticos</option>
+                    <option value="higiene-beleza">Higiene e beleza</option>
+                    <option value="petshop">Petshop</option>
+                    <option value="Restaurante">Restaurante</option>
+                  </select>
+
+                    <h4>Digite aqui o seu produto </h4>
+                    <form action="#traga-item" method="POST">
+                  <input type="search" name="buscar" id="topo-buscar" />
+                  <button id="botao-adcionar-ao-carrinho">Adcionar ao carrinho </button></form>
+                  <!-- <img class="imagem1-de-produtos-e-servicos" src="/img/comprando.jpg" alt="imagem de mulher fazendo compras"> -->
+             </div>
+    
+            
+                <div class="div-do-carrinho">
+                  <h2>Carrinho <img id="imagem-do-carrinho" src="img/carrinho.png" alt="símbolo-do-carrinho">
+                  </h2>
+                 <button id="estilizacao-do-botao-comprar">Comprar</button>
+                 <img id= "imagem-das-formas-de-pgmt" src="/img/pagamento.jpg" alt="imagem de formas de pagamento">
+                 <!-- <img class= "imagem2-de-produtos-e-servicos"src="img/pratoDeComida.jpg" alt="imagem de prato de comida"> -->
+             </div>
+             
+             
+            
+            
+        </div>
+
+     
+         <div>
+                
+            <h1 class="titulos" id="trabalhe-conosco">Trabalhe Conosco</h1>
+                <div  id="fundo-de-imagem" class="final-do-main">
+                <form  class="tela-trabalhe-conosco"  action="#" >
+                   
+                  <div >
+                   
+                     <label for = "seu-Nome">Seu Nome</label><br>
+                    
+                    <input type= "text" id ="seu-Nome"  name = "seu-nome"><br></div>
+
+                  <div>  <label for = "seu-email">Seu Email</label><br>
+
+                    <input type= "email" id="seu-email" name="seu-email"><br></div>
+
+                   <div> <label for = "seu curriculo"> Seu currículo</label><br>
+
+                    <input type="file" id=" seu-curriculo" name="seu-curriculo"><br></div>
+
+                   <div> <label for="msg">Mensagem:</label><br>
+                    
+                    <textarea id="msg"></textarea></div>
+
+                    <div><button id="botao-enviar-dados" type="submit">Enviar Dados</button></div>
+                </form>
+
+              
+                </div>
+                </div>
+        
+    </main>
+
+
+    <!-- /* Aqui o Fotter */ -->
+
+
+    <footer id="primeiro-footer">
+
+        <img id="imagem-footer" src="./img/4food.png" alt="Logo 4food">
+     
+     <h4 id="mercado">Super Mercado 4Food pensado para você ♥</h4>
+     <h4>
+        Contatos:
+            <br>
+            <img id="imagem-whats" src="./img/whatsapp2.png" alt="logo whatsapp"><br>WhatsApp: 11 99458-5741
+            <br>
+            <img id="imagem-whats" src="./img/email5.png" alt="logo email"><br>Emai-l: atendimento@4food.com
+    </h4>
+    
+        
+        <h4>
+        Fique por dentro das nossas redes sociais:
+        <br>
+        <a target="_blank"href="http://www.twitter.com"><img class="logo-social" src="./img/twitter2.png" alt="icone twitter"></a>
+        <a target="_blank"href="http://www.facebook.com"><img class="logo-social" src="./img/facebook2.png" alt="icone facebook"></a>
+        <a target="_blank"href="http://www.instagram.com"><img class="logo-social" src="./img/instagram2.png" alt="icone instagram"></a>
+        <a target="_blank"href="http://www.linkedin.com/"><img class="logo-social" src="./img/linkdin2.png" alt="icone linkdin"></a>
+        <a target="_blank"href="http://www.youtube.com"><img class="logo-social" src="./img/youtube2.png" alt="icone youtube"></a>
+        </h4>
+        
+    </footer>
+        
+    <footer id="segundo-footer">    
+    </footer>
+    
+</body>
+
+</html>

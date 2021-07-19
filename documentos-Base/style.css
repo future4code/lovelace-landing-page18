@@ -1,0 +1,368 @@
+
+/* Aqui começa o header */
+html {
+    scroll-behavior:smooth;
+  }
+
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.div-da-header{
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+    background-color: #66402b;
+}
+.logo-header{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 20%;
+}
+
+.header {
+    text-decoration: none;
+    color: black;
+}
+.header:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #412416;
+    border-radius: 7px;
+
+}
+
+/* Aqui começa o main */
+main{
+    border: solid 0.40em #66402b ;
+}
+
+.tela-apresentacao{
+    width:100%;
+    height:100vh;
+    font-size:2.80em ;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.tela-quem-somos{
+    width:100%;
+    height:100vh;
+     display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+    display:flex;
+    align-items:center;
+    font-size:1.75em   
+} 
+
+ .paragrafo-quem-somos{
+     display:grid;
+      
+ }
+.titulos{
+    text-align:center;
+    margin-top: 5vh;
+}
+
+
+
+
+#logo-main{
+    height: 50vh;
+    width: 50vw;
+}
+
+
+.tela-produtos-e-servicos{
+    width:100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1vw;
+    justify-items: center;
+    align-content: center;
+   
+   
+    
+}
+
+.div-do-carrinho{
+    display:flex;
+flex-direction: column;
+align-items:center ;
+flex-wrap: wrap ;
+
+}
+
+#estilizacao-do-botao-comprar{
+    background-color: #66402b ;
+   font-size: 2em;
+   width:10vw
+}
+#estilizacao-do-botao-comprar:hover{
+cursor:pointer;
+background-color: #987e70; ;
+font-size:3em ;
+width:20vw;
+}
+
+#imagem-das-formas-de-pgmt{
+    width:25vw;
+    height:10vh;
+ 
+}
+
+#imagem-do-carrinho{
+    width:3vw;
+    height:4vh;
+
+}
+
+#botao-adcionar-ao-carrinho{
+    background-color:#66402b;
+}
+#botao-adcionar-ao-carrinho:hover{
+    cursor:pointer;
+    background-color: #987e70;
+}
+
+.imagem1-de-produtos-e-servicos{
+    width:3vw;
+    height:4vh;
+  }
+  .imagem2-de-produtos-e-servicos{
+
+  width:3vw;
+  height:4vh;
+  }
+
+.tela-trabalhe-conosco{
+ width:100%;
+ height: 67vh;
+ margin: 0 0 0 5vw
+}
+
+.final-do-main{
+    display:grid;
+    grid-template-rows: 1fr ;
+    justify-content: left ;
+    display:flex;
+    align-items: flex-end;
+   }
+
+ #botao-enviar-dados{
+     background-color:#66402b ;
+     cursor:pointer;
+     }
+     #botao-enviar-dados:hover{
+         background-color:#987e70;
+     }
+ 
+#fundo-de-imagem{
+    background-image: url("./img/procurar-emprego1.jpg");
+  background-repeat: no-repeat;
+  background-size: 40vh;
+  background-position-x: center;
+  margin:10vh 0 0 20vw;
+}
+
+
+
+
+/* Aqui o Fotter */
+
+#primeiro-footer{
+background-color:#987e70;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#imagem-footer{
+    height: 17vh;
+    width: 17vh;
+    border-radius: 20%;
+}
+
+#imagem-whats{
+    height: 3vh;
+    width: 3vh;
+    margin-top: 1vh;
+}
+
+.logo-social{
+    height: 5vh;
+    width: 5vh;
+    margin: 1vh;
+    border-radius: 20%;  
+}
+
+.logo-social:hover{
+
+    height: 7vh;
+    width: 7vh;
+}
+
+#segundo-footer{
+    background-color:#66402b;
+    height: 10vh;
+}
+
+/* Parte da responsividade */
+
+/* para celulares */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* 
+header para celular */
+ .div-da-header{
+
+   display:grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr ;
+  justify-items: center;
+ }
+
+.logo-header{
+    height:10em;
+    width:10em;
+}
+
+/* main para celular */
+
+.tela-apresentacao{
+    font-size: 2em;
+}
+
+
+.tela-quem-somos{
+    width:100%;
+    height:100vh;
+     display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; 
+    display:flex;
+    align-items:center;
+    font-size:1.30em   
+} 
+
+
+#logo-main{
+    height: 30vh;
+    width: 45vw;
+}
+
+
+
+.tela-produtos-e-servicos{
+   
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   align-items: stretch;
+   justify-content: space-evenly;
+  
+      
+}
+
+#imagem-do-carrinho{
+    width:2em;
+    height:2em;
+}
+
+#estilizacao-do-botao-comprar{
+    background-color: #66402b ;
+    font-size: 1em;
+    width:5em
+ }
+ #estilizacao-do-botao-comprar:hover{
+    font-size:1em ;
+    width:5em;
+ }
+
+/*  
+.imagem2-de-produtos-e-servicos{
+    margin-top: 29vh;
+}
+
+
+#estilizacao-do-botao-comprar{
+    font-size: 1em;
+    width:10em;
+} */
+#imagem-das-formas-de-pgmt{
+    width:12.73em;
+    height:2.75em;
+}
+
+
+.tela-trabalhe-conosco{
+    width:100%;
+    height: 67vh;
+    margin:0;
+    }
+ 
+#fundo-de-imagem{
+    background-image: url("./img/procurar-emprego1.jpg");
+  background-repeat: no-repeat;
+  background-size: 40vh;
+  background-position-x: center;
+  margin:0;
+  opacity: 70%
+}
+
+
+
+/* footer para celular */
+
+#primeiro-footer{
+    background-color:#987e70;
+ 
+    width: 95.5vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    }
+
+    #imagem-footer{
+        height: 17vh;
+        width: 17vh;
+        border-radius: 20%;
+    }
+    
+    #imagem-whats{
+        height: 3vh;
+        width: 3vh;
+        margin-top: 1vh;
+    }
+    
+    .logo-social{
+        height: 5vh;
+        width: 5vh;
+        margin: 1vh;
+        border-radius: 20%;  
+    }
+    
+    .logo-social:hover{
+    
+        height: 7vh;
+        width: 7vh;
+    }
+    
+    #segundo-footer{
+        background-color:#66402b;
+        height: 20vh;
+    }
+    
+}
+
+ /* Para tablets */
+@media screen and (min-device-width : 481px ) and (max-device-width : 800px){
+
+}
+
+
